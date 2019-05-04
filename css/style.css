@@ -116,7 +116,7 @@ html {
 }
 p {
   letter-spacing: 0.1px;
-  line-height: 1.5;
+  line-height: 1.8;
   margin: 20px 0;
 }
 p a {
@@ -124,11 +124,15 @@ p a {
 }
 h1,
 h2,
-h3,
+h3 {
+  font-weight: 800;
+  margin: 32px 0 20px;
+}
 h4,
 h5,
 h6 {
-  font-weight: 800;
+  font-weight: 500;
+  margin: 20px 0;
 }
 a {
   color: #ce2323;
@@ -147,7 +151,7 @@ a img:focus {
 }
 hr.small {
   max-width: 100px;
-  margin: 15px auto;
+  margin: 20px auto;
   border-width: 4px;
   border-color: #fff;
 }
@@ -280,6 +284,7 @@ nav {
   width: 30%;
   height: 100%;
   font-size: 2em;
+  margin: 21px 0;
 }
 .post-preview > a > .post-title.archive {
   font-size: 22px;
