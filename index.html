@@ -91,24 +91,6 @@
     </a>
 </div>
                 
-                    <div class="post-preview">
-    <a href="/fragment/2019/05/04/spark-joy/">
-        <h2 class="post-title">
-            Spark Joy
-        </h2>
-        <p>怦然心動的整理術</p>
-    </a>
-</div>
-                
-                    <div class="post-preview">
-    <a href="/fragment/2018/12/30/2018/">
-        <h2 class="post-title">
-            2018
-        </h2>
-        <p>本命年终于过去了！！！</p>
-    </a>
-</div>
-                
             </div>
         </div>
         <!-- Pagination -->
@@ -215,8 +197,7 @@
                     "<li><a href='" +
                     data_url +
                     "' class='search-result-title'>" +
-                    data_title +
-                    "</a>";
+                    data_title;
                   var content = data.content.trim().replace(/<[^>]+>/g, "");
                   if (first_occur >= 0) {
                     // cut out 30 characters
@@ -244,7 +225,7 @@
     
                     str += '<p class="search-result">' + match_content + "...</p>";
                   }
-                  str += "</li>";
+                  str += "</a></li>";
                 }
               });
               str += "</ul>";

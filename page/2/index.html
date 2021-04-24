@@ -63,50 +63,29 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 
                     <div class="post-preview">
+    <a href="/fragment/2019/05/04/spark-joy/">
+        <h2 class="post-title">
+            Spark Joy
+        </h2>
+        <p>怦然心動的整理術</p>
+    </a>
+</div>
+                
+                    <div class="post-preview">
+    <a href="/fragment/2018/12/30/2018/">
+        <h2 class="post-title">
+            2018
+        </h2>
+        <p>本命年终于过去了！！！</p>
+    </a>
+</div>
+                
+                    <div class="post-preview">
     <a href="/fragment/2017/12/02/everything-will-be-ok/">
         <h2 class="post-title">
             2017
         </h2>
         <p>当初什么也没准备的迎接<br>最终也什么都没有的告别</p>
-    </a>
-</div>
-                
-                    <div class="post-preview">
-    <a href="/fragment/2016/11/20/22-years-old/">
-        <h2 class="post-title">
-            22 岁
-        </h2>
-        <p>I don’t know about you<br>But I’m feeling 22</p>
-<p>Taylor Swift 《22》</p>
-    </a>
-</div>
-                
-                    <div class="post-preview">
-    <a href="/fragment/2016/07/24/never-go-back/">
-        <h2 class="post-title">
-            你想要重来吗
-        </h2>
-        <p>上了发条跟有节奏感是两码事</p>
-<p>上发条是走固定模式<br>心已经在失控 行为看起来却没差</p>
-<p>有节奏感是由身心掌控<br>有条不紊地 把握现在 感知未来</p>
-    </a>
-</div>
-                
-                    <div class="post-preview">
-    <a href="/fragment/2016/06/25/reflections/">
-        <h2 class="post-title">
-            清醒思考
-        </h2>
-        <p>说白了就是要控制情绪啊</p>
-    </a>
-</div>
-                
-                    <div class="post-preview">
-    <a href="/fragment/2016/04/14/be-foolish/">
-        <h2 class="post-title">
-            断，舍，离
-        </h2>
-        <p>断 - 断绝不需要的东西<br>舍 - 舍弃多余的废物<br>离 - 脱离对物品的执着</p>
     </a>
 </div>
                 
@@ -218,8 +197,7 @@
                     "<li><a href='" +
                     data_url +
                     "' class='search-result-title'>" +
-                    data_title +
-                    "</a>";
+                    data_title;
                   var content = data.content.trim().replace(/<[^>]+>/g, "");
                   if (first_occur >= 0) {
                     // cut out 30 characters
@@ -247,7 +225,7 @@
     
                     str += '<p class="search-result">' + match_content + "...</p>";
                   }
-                  str += "</li>";
+                  str += "</a></li>";
                 }
               });
               str += "</ul>";
